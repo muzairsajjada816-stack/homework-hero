@@ -67,13 +67,13 @@ with st.sidebar:
     groq_api_key = st.text_input(
         "Groq API Key",
         type="password",
-        value=os.getenv("GROQ_API_KEY", ""),
+        value="",
         help="Enter your Groq API key here"
     )
     serper_api_key = st.text_input(
         "Serper API Key",
         type="password",
-        value=os.getenv("SERPER_API_KEY", ""),
+        value="",
         help="Enter your Serper API key for web search"
     )
     
