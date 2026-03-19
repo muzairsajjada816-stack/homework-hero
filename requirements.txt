@@ -1,4 +1,5 @@
 streamlit
-crewai==0.100.0
-crewai-tools==0.33.0
+crewai
+crewai-tools
 python-dotenv
+google-generativeai
